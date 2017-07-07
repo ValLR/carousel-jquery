@@ -11,7 +11,7 @@ body{
 	display:none;
 }
 .carousel-outer{
-	padding: 30px 10px 30px 10px;
+	padding: 40px 20px 40px 20px;
 }
 img {
 	height:100%;
@@ -19,6 +19,6 @@ img {
 }
 .carousel-inner{
 	position:relative;
-	height:800px;
-	width:785px;
+	height:660px;
+	width:770px;
 }

@@ -14,9 +14,11 @@ body{
 	padding: 30px 10px 30px 10px;
 }
 img {
-	height:660px;
-	width:700px;
+	height:100%;
+	width:100%;
 }
 .carousel-inner{
 	position:relative;
+	height:800px;
+	width:785px;
 }

@@ -30,6 +30,12 @@ $(document).ready(function(){
 
 		e.preventDefault();
 	})
+	$("#c1").on("click", function(e){
+		var imShown= $(".image-shown");
+		imShown.removeClass("image-shown").addClass("image-hidden");
+		$("#i1").addClass("image-shown").removeClass("image-hidden");
+		e.preventDefault();
+	});
 	$("#c2").on("click", function(e){
 		var imShown= $(".image-shown");
 		imShown.removeClass("image-shown").addClass("image-hidden");

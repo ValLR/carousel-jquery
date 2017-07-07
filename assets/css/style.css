@@ -1,0 +1,22 @@
+body{
+	margin:0;
+	border:0;
+	overflow-x:hidden;
+	text-align: center;
+}
+.image-shown{
+	display:inline-block;
+}
+.image-hidden{
+	display:none;
+}
+.carousel-outer{
+	padding: 30px 10px 30px 10px;
+}
+img {
+	height:660px;
+	width:700px;
+}
+.carousel-inner{
+	position:relative;
+}

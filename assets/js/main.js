@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("#next").on("click", function(){
+	$("#next").on("click", function(e){
 		var currentIm = $(".image-shown");
 		var nextIm = currentIm.next();
 
@@ -16,4 +16,18 @@ $(document).ready(function(){
 		//para prevenir que fonawesomes me lleven a algún lugar
 		e.preventDefault();
 	});
+	$("#previous").on("click", function(e){
+		var currentIm = $(".image-shown");
+		var nextIm = currentIm.prev();
+
+		if(nextIm.length == 0){
+			nextIm = $(".carousel-inner img").last();
+		}
+
+		currentIm.removeClass("image-shown").addClass("image-hidden").css("z-index", 20);
+		nextIm.addClass("image-shown").removeClass("image-hidden").css("z-index",-10);
+		$(".carousel-inner img").not([currentIm,nextIm]).css("z-index",1);
+
+		e.preventDefault();
+	})
 });

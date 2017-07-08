@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$("#next").on("click", function(e){
 		var currentIm = $(".image-shown");
 		var nextIm = currentIm.next();

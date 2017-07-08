@@ -3,6 +3,16 @@ body{
 	border:0;
 	overflow-x:hidden;
 	text-align: center;
+	font-family: 'Bungee Inline', cursive;
+	background: url("../images/tumblr_ntb2n9p0JG1smn4pqo5_1280.jpg")
+
+}
+.header {
+	color: #FDE282;
+	padding: 70px 30px;
+	margin:20px 0;
+	background-color: #271848;
+	border: 2px solid #FDE282;
 }
 .image-shown{
 	display:inline-block;
@@ -21,7 +31,18 @@ img {
 	position:relative;
 	height:660px;
 	width:770px;
+	border: 2px solid black;
 }
+.arrow{
+	font-size:80px;
+
+}
+.arrow-container{
+	margin-top:270px;
+
+}
+
 .fa-circle{
 	margin:15px 10px;
+	font-size:20px;
 }
